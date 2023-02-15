@@ -10586,7 +10586,7 @@ pre .code {
   background-image: url(../imgs/header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center right;
 }
 
 .header .overlay {
@@ -10805,7 +10805,7 @@ pre .code {
 }
 
 .fundo-mecontrate {
-  background-image: url(../imgs/sao-paulo.jpg);
+  background-image: url(../imgs/metrosp.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
