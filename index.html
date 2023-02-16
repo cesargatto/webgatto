@@ -3,13 +3,16 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="&lt;webgatto&gt; Frontend Web Design">
-    <meta name="author" content="César Gatto">
+    <meta name="description" content="Portfólio de César Gatto">
+    <meta name="author" content="Devcrud e César Gatto">
     <title>&lt;webgatto&gt;  Frontend Web Design</title>
     <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css"> -->
     <!-- Bootstrap  -->
 	<link rel="stylesheet" href="assets/css/estilos.css">
+
+
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -50,7 +53,7 @@
         <div class="overlay"></div>
         <div class="header-content container">
             <h1 class="header-title">
-                <span class="up">Seja bem-vindo!<br></span>
+                <span class="up">Bem-vindos!<br></span>
                 <span class="down">Sou César<br>Gatto,</span>
             </h1>
             <p class="header-subtitle">FRONTEND WEB DESIGNER</p>            
@@ -163,17 +166,51 @@
                     </a> -->
                 </div>
                 <div class="portfolio-container"> 
+
+
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                      </button>
+
+
+
+
+
+
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/port_12.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#exampleModal"><img src="assets/imgs/port_12.jpg" class="img-fluid" alt=""></a>
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/port_01.jpg"></a>
+                                <!-- <a class="img-popup" href="assets/imgs/port_01.jpg"></a> -->
                                 <div class="text-holder">
                                     <h6 class="title3">WEB</h6>
                                     <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare lacus ut nisi vulputate, sed mollis justo sollicitudin.</p>
                                 </div>
                             </div>   
-                        </div>             
+                        </div>      
+                        
+                        
+                        <!-- <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            ...
+                          </div> -->
+
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  ...
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                     </div>
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
@@ -552,7 +589,7 @@
                         <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Digite uma mensagem"></textarea>
                     </div>
                     <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Enviar" class="btn btn-outline-primary rounded">                  
+                        <input type="submit" value="Enviar" class="btn btn-outline-primary">                  
                     </div>
                 </div>  
             </form><!-- end of contact form -->
